@@ -1,5 +1,6 @@
 $icon-font-path: "../bower_components/bootstrap-sass-official/vendor/assets/fonts/bootstrap/";
 // bower:scss
+@import "bootstrap-sass-official/vendor/assets/stylesheets/bootstrap.scss";
 // endbower
 
 .browsehappy {
@@ -88,4 +89,18 @@ body {
   .jumbotron {
     border-bottom: 0;
   }
+}
+
+#messagesDiv {
+	border:  1px solid #444;
+	box-shadow: 1px 1px 1px;
+	padding: 20px;
+}
+.name, .message {
+	display: inline-flex;
+	margin: 10px 0 0;
+	width: 100%;
+}
+.message {
+	height: 40px;
 }
