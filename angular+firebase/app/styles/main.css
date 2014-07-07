@@ -1,0 +1,60 @@
+/*
+Syntax error: File to import not found or unreadable: bootstrap-sass-official/vendor/assets/stylesheets/bootstrap.scss.
+              Load path: /Users/fauverism/Documents/github/chatmvc/angular+firebase/app/styles (DEPRECATED)
+        on line 3 of main.scss
+
+1: $icon-font-path: "../bower_components/bootstrap-sass-official/vendor/assets/fonts/bootstrap/";
+2: // bower:scss
+3: @import "bootstrap-sass-official/vendor/assets/stylesheets/bootstrap.scss";
+4: // endbower
+5: 
+6: .browsehappy {
+7:   margin: 0.2em 0;
+8:   background: #ccc;
+
+Backtrace:
+main.scss:3
+/Users/fauverism/.rvm/gems/ruby-2.0.0-p0/gems/sass-3.3.7/lib/sass/tree/import_node.rb:66:in `rescue in import'
+/Users/fauverism/.rvm/gems/ruby-2.0.0-p0/gems/sass-3.3.7/lib/sass/tree/import_node.rb:45:in `import'
+/Users/fauverism/.rvm/gems/ruby-2.0.0-p0/gems/sass-3.3.7/lib/sass/tree/import_node.rb:28:in `imported_file'
+/Users/fauverism/.rvm/gems/ruby-2.0.0-p0/gems/sass-3.3.7/lib/sass/tree/import_node.rb:37:in `css_import?'
+/Users/fauverism/.rvm/gems/ruby-2.0.0-p0/gems/sass-3.3.7/lib/sass/tree/visitors/perform.rb:283:in `visit_import'
+/Users/fauverism/.rvm/gems/ruby-2.0.0-p0/gems/sass-3.3.7/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/fauverism/.rvm/gems/ruby-2.0.0-p0/gems/sass-3.3.7/lib/sass/tree/visitors/perform.rb:152:in `block in visit'
+/Users/fauverism/.rvm/gems/ruby-2.0.0-p0/gems/sass-3.3.7/lib/sass/stack.rb:79:in `block in with_base'
+/Users/fauverism/.rvm/gems/ruby-2.0.0-p0/gems/sass-3.3.7/lib/sass/stack.rb:121:in `with_frame'
+/Users/fauverism/.rvm/gems/ruby-2.0.0-p0/gems/sass-3.3.7/lib/sass/stack.rb:79:in `with_base'
+/Users/fauverism/.rvm/gems/ruby-2.0.0-p0/gems/sass-3.3.7/lib/sass/tree/visitors/perform.rb:152:in `visit'
+/Users/fauverism/.rvm/gems/ruby-2.0.0-p0/gems/sass-3.3.7/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Users/fauverism/.rvm/gems/ruby-2.0.0-p0/gems/sass-3.3.7/lib/sass/tree/visitors/base.rb:52:in `map'
+/Users/fauverism/.rvm/gems/ruby-2.0.0-p0/gems/sass-3.3.7/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Users/fauverism/.rvm/gems/ruby-2.0.0-p0/gems/sass-3.3.7/lib/sass/tree/visitors/perform.rb:161:in `block in visit_children'
+/Users/fauverism/.rvm/gems/ruby-2.0.0-p0/gems/sass-3.3.7/lib/sass/tree/visitors/perform.rb:173:in `with_environment'
+/Users/fauverism/.rvm/gems/ruby-2.0.0-p0/gems/sass-3.3.7/lib/sass/tree/visitors/perform.rb:160:in `visit_children'
+/Users/fauverism/.rvm/gems/ruby-2.0.0-p0/gems/sass-3.3.7/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/Users/fauverism/.rvm/gems/ruby-2.0.0-p0/gems/sass-3.3.7/lib/sass/tree/visitors/perform.rb:180:in `visit_root'
+/Users/fauverism/.rvm/gems/ruby-2.0.0-p0/gems/sass-3.3.7/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/fauverism/.rvm/gems/ruby-2.0.0-p0/gems/sass-3.3.7/lib/sass/tree/visitors/perform.rb:151:in `visit'
+/Users/fauverism/.rvm/gems/ruby-2.0.0-p0/gems/sass-3.3.7/lib/sass/tree/visitors/perform.rb:8:in `visit'
+/Users/fauverism/.rvm/gems/ruby-2.0.0-p0/gems/sass-3.3.7/lib/sass/tree/root_node.rb:36:in `css_tree'
+/Users/fauverism/.rvm/gems/ruby-2.0.0-p0/gems/sass-3.3.7/lib/sass/tree/root_node.rb:20:in `render'
+/Users/fauverism/.rvm/gems/ruby-2.0.0-p0/gems/sass-3.3.7/lib/sass/engine.rb:274:in `render'
+/Users/fauverism/.rvm/gems/ruby-2.0.0-p0/gems/sass-3.3.7/lib/sass/plugin/compiler.rb:414:in `update_stylesheet'
+/Users/fauverism/.rvm/gems/ruby-2.0.0-p0/gems/sass-3.3.7/lib/sass/plugin/compiler.rb:189:in `block in update_stylesheets'
+/Users/fauverism/.rvm/gems/ruby-2.0.0-p0/gems/sass-3.3.7/lib/sass/plugin/compiler.rb:186:in `each'
+/Users/fauverism/.rvm/gems/ruby-2.0.0-p0/gems/sass-3.3.7/lib/sass/plugin/compiler.rb:186:in `update_stylesheets'
+/Users/fauverism/.rvm/gems/ruby-2.0.0-p0/gems/sass-3.3.7/lib/sass/plugin.rb:82:in `update_stylesheets'
+/Users/fauverism/.rvm/gems/ruby-2.0.0-p0/gems/sass-3.3.7/lib/sass/exec.rb:489:in `watch_or_update'
+/Users/fauverism/.rvm/gems/ruby-2.0.0-p0/gems/sass-3.3.7/lib/sass/exec.rb:346:in `process_result'
+/Users/fauverism/.rvm/gems/ruby-2.0.0-p0/gems/sass-3.3.7/lib/sass/exec.rb:43:in `parse'
+/Users/fauverism/.rvm/gems/ruby-2.0.0-p0/gems/sass-3.3.7/lib/sass/exec.rb:22:in `parse!'
+/Users/fauverism/.rvm/gems/ruby-2.0.0-p0/gems/sass-3.3.7/bin/scss:13:in `<top (required)>'
+/Users/fauverism/.rvm/gems/ruby-2.0.0-p0/bin/scss:23:in `load'
+/Users/fauverism/.rvm/gems/ruby-2.0.0-p0/bin/scss:23:in `<main>'
+/Users/fauverism/.rvm/gems/ruby-2.0.0-p0/bin/ruby_noexec_wrapper:14:in `eval'
+/Users/fauverism/.rvm/gems/ruby-2.0.0-p0/bin/ruby_noexec_wrapper:14:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: File to import not found or unreadable: bootstrap-sass-official/vendor/assets/stylesheets/bootstrap.scss.\A               Load path: /Users/fauverism/Documents/github/chatmvc/angular+firebase/app/styles (DEPRECATED)\A         on line 3 of main.scss\A \A 1: $icon-font-path: \"../bower_components/bootstrap-sass-official/vendor/assets/fonts/bootstrap/\";\A 2: // bower:scss\A 3: @import \"bootstrap-sass-official/vendor/assets/stylesheets/bootstrap.scss\";\A 4: // endbower\A 5: \A 6: .browsehappy {\A 7:   margin: 0.2em 0;\A 8:   background: #ccc;"; }
